@@ -1,0 +1,10 @@
+{
+  "test_name": "modelo/TesteProduto.testeSemLances()V",
+  "modified_states": "17",
+  "covered_states": "1",
+  "useless_covered_states": "1",
+  "modified":  [ "modelo/Produto.lanceMinimo", "modelo/Produto.dataLimite", "modelo/Usuario.bensOfertados", "modelo/Produto.descricao", "modelo/Usuario.cpf", "modelo/Usuario.nome", "modelo/Produto.leiloador", "modelo/TesteProduto.enderecoUsuario", "modelo/Usuario.endereco", "modelo/TesteProduto.emailUsuario", "modelo/Produto.lancesEfetuados", "modelo/Usuario.email", "modelo/TesteProduto.nomeUsuario", "modelo/Usuario.bensComprados", "modelo/TesteProduto.cpfLeiloadorProduto", "modelo/Produto.nome", "modelo/MercadoLeilao.produtosEmLeilao" ],
+  "covered":  [ "modelo/Produto.lancesEfetuados" ],
+  "useless":  [ "modelo/TesteProduto.mercado" ],
+  "state_coverage": "0.058823529411764705"
+}

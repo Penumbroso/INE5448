@@ -1,0 +1,10 @@
+{
+  "test_name": "modelo/TesteMercado.testeCadastrarUsuario()V",
+  "modified_states": "6",
+  "covered_states": "3",
+  "useless_covered_states": "1",
+  "modified":  [ "modelo/Usuario.endereco", "modelo/Usuario.email", "modelo/Usuario.bensComprados", "modelo/Usuario.bensOfertados", "modelo/Usuario.cpf", "modelo/Usuario.nome" ],
+  "covered":  [ "modelo/Usuario.email", "modelo/Usuario.cpf", "modelo/Usuario.nome" ],
+  "useless":  [ "modelo/TesteMercado.mercado" ],
+  "state_coverage": "0.5"
+}

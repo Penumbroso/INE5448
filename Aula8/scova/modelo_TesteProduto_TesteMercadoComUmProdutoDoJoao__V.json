@@ -1,0 +1,10 @@
+{
+  "test_name": "modelo/TesteProduto.TesteMercadoComUmProdutoDoJoao()V",
+  "modified_states": "21",
+  "covered_states": "1",
+  "useless_covered_states": "1",
+  "modified":  [ "modelo/Produto.lanceMinimo", "modelo/TesteProduto.descricaoProduto", "modelo/TesteProduto.valorMinimoProduto", "modelo/Produto.dataLimite", "modelo/Usuario.bensOfertados", "modelo/Produto.descricao", "modelo/Usuario.cpf", "modelo/Usuario.nome", "modelo/Produto.leiloador", "modelo/TesteProduto.enderecoUsuario", "modelo/Usuario.endereco", "modelo/TesteProduto.emailUsuario", "modelo/Produto.lancesEfetuados", "modelo/Usuario.email", "modelo/TesteProduto.nomeUsuario", "modelo/Usuario.bensComprados", "modelo/TesteProduto.dataLimiteProduto", "modelo/TesteProduto.cpfLeiloadorProduto", "modelo/Produto.nome", "modelo/TesteProduto.nomeProduto", "modelo/MercadoLeilao.produtosEmLeilao" ],
+  "covered":  [ "modelo/TesteProduto.cpfLeiloadorProduto" ],
+  "useless":  [ "modelo/TesteProduto.mercado" ],
+  "state_coverage": "0.047619047619047616"
+}
