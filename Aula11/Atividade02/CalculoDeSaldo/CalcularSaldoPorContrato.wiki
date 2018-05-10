@@ -1,0 +1,18 @@
+---
+Test
+---
+<test page>
+
+
+!| fixtures.FornecedorSetUpFixtureTest |
+| id 	| nome  |  contrato  	| valor contrato 	|  	fatura  	| 	saldo fatura				|
+| 73 	| MX    |  142/2017  	| 1000				| 	006/2017  	| 	100							|
+| 73 	| MX    |  142/2017  	| 1000				| 	006/2017  	| 	50							|
+ 
+
+
+!| fixtures.FornecedorColumnFixtureTest |
+| contrato | calcular valor()   		|
+| 142/2017 | 850						|
+
+

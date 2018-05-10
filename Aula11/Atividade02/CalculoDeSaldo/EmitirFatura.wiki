@@ -1,0 +1,17 @@
+---
+Test
+---
+<test page>
+
+!| fixtures.FaturaSetUpFixtureTest |
+|	fornecedor  			|  sancao			| data de suspencao		|	data da sancao		|	saldo		|
+|	Papelaria Brasileira	|  59	  			|						|	"2020/01/01"		|	100			|
+|	MX    					|  60	 			| "2017/01/01"			|   "2017/02/02"		|	2000		|
+ 
+
+
+!| fixtures.FaturaColumnFixtureTest |
+| fornecedor 			| numero da fatura	|  contrato  	|  	produdoServico	|   valor total		| is penalty applied()  | cadastro fatura()		|
+| Papelaria Brasileira 	| 006/2017			|	354/2015	|	notebook		|		100			| true					| false					|
+| MX					| 007/2017			|	200/2015	|	papel			|		1000		| false					| true					|
+| MX					| 007/2017			|	200/2015	|	papel			|		3000		| false					| false					|
